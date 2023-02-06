@@ -1,0 +1,39 @@
+html {
+  font-size: 20px;
+  background-image: url(./images/5335435.jpg);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+img {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.score-text p {
+  color: white;
+  text-align: center;
+}
+
+button p {
+  font-size: 30px;
+}
+
+#rock {
+  background-color: #490a8dbb;
+}
+
+#paper {
+  background-color: #fa5ca6a1;
+}
+
+#scissors {
+  background-color: #5dabfeb9;
+}
