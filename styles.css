@@ -1,14 +1,32 @@
+* {
+  font-family: monospace;
+}
+
 html {
-  font-size: 20px;
   background-image: url(./images/5335435.jpg);
 }
 
-body {
+h1,
+#final-score {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: 45px;
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #00000057;
+}
+
+.buttons {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 50px;
+  gap: 50px;
+  margin: 80px 0px 40px 0px;
+}
+
+.score-text {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 img {
@@ -18,11 +36,15 @@ img {
 }
 
 .score-text p {
+  font-size: 30px;
   color: white;
-  text-align: center;
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #00000057;
 }
 
-button p {
+.buttons button p {
+  color: white;
   font-size: 30px;
 }
 
@@ -36,4 +58,24 @@ button p {
 
 #scissors {
   background-color: #5dabfeb9;
+}
+
+#play-again {
+  display: flex;
+  justify-content: center;
+}
+
+#play-again-btn {
+  color: white;
+  font-size: 30px;
+  background-color: #fa5ca67b;
+  display: flex;
+}
+
+i {
+  margin: 35px 20px 10px 20px;
+}
+
+#play-again-btn p {
+  margin-right: 20px;
 }
