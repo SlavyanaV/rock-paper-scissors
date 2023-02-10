@@ -15,24 +15,24 @@
   <body>
     <h1>Rock Paper Scissors</h1>
     <div class="buttons">
-      <button id="rock">
+      <button class="btn" id="rock">
         <img src="./images/rock-hand.png" alt="rock image" />
         <p>ROCK</p>
       </button>
-      <button id="paper">
+      <button class="btn" id="paper">
         <img src="./images/paper-hand.png" alt="paper image" />
         <p>PAPER</p>
       </button>
-      <button id="scissors">
+      <button class="btn" id="scissors">
         <img src="./images/scissors-hand.png" alt="scissors image" />
         <p>SCISSORS</p>
       </button>
     </div>
     <div class="score-text">
-      <p>Player score: 0</p>
-      <p>Computer score: 0</p>
+      <p id="player-score-text"></p>
+      <p id="comp-score-text"></p>
     </div>
-    <p id="final-score">You lost! Final score: You 2 - Computer 5</p>
+    <p id="game-score"></p>
     <div id="play-again">
       <button id="play-again-btn">
         <i class="fa-solid fa-rotate"></i>
