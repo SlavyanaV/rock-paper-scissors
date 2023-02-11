@@ -95,7 +95,7 @@ i {
 @media only screen and (max-width: 672px) {
   h1,
   #game-score {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .buttons {
@@ -103,11 +103,15 @@ i {
   }
 
   img {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
   }
 
   .score-text p {
+    font-size: 15px;
+  }
+
+  .buttons button p {
     font-size: 20px;
   }
 }
